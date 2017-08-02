@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64CE02E5A12161C71BEF76C8 /* libPods-CommonComponent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A13CABA9088CE41520C901F /* libPods-CommonComponent.a */; };
 		7768D70E1F31EEBD00239118 /* CommonComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768D70D1F31EEBD00239118 /* CommonComponent.m */; };
 		7768D70F1F31EEBD00239118 /* CommonComponent.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7768D70C1F31EEBD00239118 /* CommonComponent.h */; };
+		7768D71D1F31EF5E00239118 /* NSObject+MyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768D71C1F31EF5E00239118 /* NSObject+MyDescription.m */; };
+		7768D7201F31EF6C00239118 /* DefaultDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768D71F1F31EF6C00239118 /* DefaultDelegateObject.m */; };
+		7768D7231F31EF7700239118 /* DefaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768D7221F31EF7700239118 /* DefaultModel.m */; };
+		7768D7261F31EF7F00239118 /* DefaultTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768D7251F31EF7F00239118 /* DefaultTableCell.m */; };
+		7768D7291F31EF9100239118 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7768D7281F31EF9100239118 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +31,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A13CABA9088CE41520C901F /* libPods-CommonComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonComponent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7768D7091F31EEBD00239118 /* libCommonComponent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonComponent.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7768D70C1F31EEBD00239118 /* CommonComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonComponent.h; sourceTree = "<group>"; };
 		7768D70D1F31EEBD00239118 /* CommonComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonComponent.m; sourceTree = "<group>"; };
+		7768D71B1F31EF5E00239118 /* NSObject+MyDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MyDescription.h"; sourceTree = "<group>"; };
+		7768D71C1F31EF5E00239118 /* NSObject+MyDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MyDescription.m"; sourceTree = "<group>"; };
+		7768D71E1F31EF6C00239118 /* DefaultDelegateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultDelegateObject.h; sourceTree = "<group>"; };
+		7768D71F1F31EF6C00239118 /* DefaultDelegateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultDelegateObject.m; sourceTree = "<group>"; };
+		7768D7211F31EF7700239118 /* DefaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultModel.h; sourceTree = "<group>"; };
+		7768D7221F31EF7700239118 /* DefaultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultModel.m; sourceTree = "<group>"; };
+		7768D7241F31EF7F00239118 /* DefaultTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultTableCell.h; sourceTree = "<group>"; };
+		7768D7251F31EF7F00239118 /* DefaultTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultTableCell.m; sourceTree = "<group>"; };
+		7768D7271F31EF9100239118 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7768D7281F31EF9100239118 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A70CD6013CD73F9F32D78CF /* Pods-CommonComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonComponent.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CommonComponent/Pods-CommonComponent.debug.xcconfig"; sourceTree = "<group>"; };
+		F373FCDB5DDF3C5944FDF383 /* Pods-CommonComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonComponent.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CommonComponent/Pods-CommonComponent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +54,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CE02E5A12161C71BEF76C8 /* libPods-CommonComponent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D8370469E3074C8AE0A0136 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A13CABA9088CE41520C901F /* libPods-CommonComponent.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2628F7DE738393781DD40310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A70CD6013CD73F9F32D78CF /* Pods-CommonComponent.debug.xcconfig */,
+				F373FCDB5DDF3C5944FDF383 /* Pods-CommonComponent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7768D7001F31EEBD00239118 = {
 			isa = PBXGroup;
 			children = (
 				7768D70B1F31EEBD00239118 /* CommonComponent */,
 				7768D70A1F31EEBD00239118 /* Products */,
+				2628F7DE738393781DD40310 /* Pods */,
+				1D8370469E3074C8AE0A0136 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +99,74 @@
 		7768D70B1F31EEBD00239118 /* CommonComponent */ = {
 			isa = PBXGroup;
 			children = (
+				7768D71A1F31EF3D00239118 /* Category */,
+				7768D7191F31EF3900239118 /* View */,
 				7768D70C1F31EEBD00239118 /* CommonComponent.h */,
 				7768D70D1F31EEBD00239118 /* CommonComponent.m */,
 			);
 			path = CommonComponent;
+			sourceTree = "<group>";
+		};
+		7768D7151F31EED400239118 /* WXTableView */ = {
+			isa = PBXGroup;
+			children = (
+				7768D7181F31EEF600239118 /* Control */,
+				7768D7161F31EEE400239118 /* Model */,
+				7768D7171F31EEEF00239118 /* View */,
+			);
+			name = WXTableView;
+			path = WXTableView;
+			sourceTree = "<group>";
+		};
+		7768D7161F31EEE400239118 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7768D71E1F31EF6C00239118 /* DefaultDelegateObject.h */,
+				7768D71F1F31EF6C00239118 /* DefaultDelegateObject.m */,
+				7768D7211F31EF7700239118 /* DefaultModel.h */,
+				7768D7221F31EF7700239118 /* DefaultModel.m */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7768D7171F31EEEF00239118 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7768D7241F31EF7F00239118 /* DefaultTableCell.h */,
+				7768D7251F31EF7F00239118 /* DefaultTableCell.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		7768D7181F31EEF600239118 /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				7768D7271F31EF9100239118 /* ViewController.h */,
+				7768D7281F31EF9100239118 /* ViewController.m */,
+			);
+			name = Control;
+			path = Control;
+			sourceTree = "<group>";
+		};
+		7768D7191F31EF3900239118 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7768D7151F31EED400239118 /* WXTableView */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		7768D71A1F31EF3D00239118 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7768D71B1F31EF5E00239118 /* NSObject+MyDescription.h */,
+				7768D71C1F31EF5E00239118 /* NSObject+MyDescription.m */,
+			);
+			name = Category;
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7768D7121F31EEBD00239118 /* Build configuration list for PBXNativeTarget "CommonComponent" */;
 			buildPhases = (
+				21135F6552155D58B590AFAA /* [CP] Check Pods Manifest.lock */,
 				7768D7051F31EEBD00239118 /* Sources */,
 				7768D7061F31EEBD00239118 /* Frameworks */,
 				7768D7071F31EEBD00239118 /* CopyFiles */,
+				5A2C945DC6097734B286E4CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -119,12 +224,50 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21135F6552155D58B590AFAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A2C945DC6097734B286E4CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CommonComponent/Pods-CommonComponent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7768D7051F31EEBD00239118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7768D7291F31EF9100239118 /* ViewController.m in Sources */,
+				7768D7201F31EF6C00239118 /* DefaultDelegateObject.m in Sources */,
+				7768D71D1F31EF5E00239118 /* NSObject+MyDescription.m in Sources */,
 				7768D70E1F31EEBD00239118 /* CommonComponent.m in Sources */,
+				7768D7231F31EF7700239118 /* DefaultModel.m in Sources */,
+				7768D7261F31EF7F00239118 /* DefaultTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +366,7 @@
 		};
 		7768D7131F31EEBD00239118 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A70CD6013CD73F9F32D78CF /* Pods-CommonComponent.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 4QQ5RB6ZS5;
 				OTHER_LDFLAGS = "-ObjC";
@@ -233,6 +377,7 @@
 		};
 		7768D7141F31EEBD00239118 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F373FCDB5DDF3C5944FDF383 /* Pods-CommonComponent.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 4QQ5RB6ZS5;
 				OTHER_LDFLAGS = "-ObjC";
