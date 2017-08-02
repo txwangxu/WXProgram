@@ -10,6 +10,8 @@ target 'WXMainProgram' do
 
   pod 'Masonry'
   
+  pod 'MJExtension'
+  
   pod 'MJRefresh'
   
   pod 'SDWebImage'
@@ -18,7 +20,7 @@ target 'WXMainProgram' do
   
   pod 'MBProgressHUD'
 
-#   pod 'Reveal-iOS-SDK' ,:configurations => ['Debug']
+  pod 'Reveal-iOS-SDK' ,:configurations => ['Debug']
 
 end
 
@@ -44,5 +46,15 @@ target 'WXDataRequestManager' do
 
   pod 'AFNetworking'
 
+end
+
+target "CommonComponent" do
+
+  project 'CommonComponent/CommonComponent.xcodeproj'
+
+  pod 'Masonry'
+  
+  pod 'MJExtension'
+  
 end
 

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:CommonComponent/CommonComponent.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:WXDataStoreManager/WXDataStoreManager.xcodeproj">
    </FileRef>
    <FileRef
