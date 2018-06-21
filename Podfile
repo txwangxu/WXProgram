@@ -8,6 +8,8 @@ project 'WXMainProgram/WXMainProgram.xcodeproj'
 
 target 'WXMainProgram' do
 
+  pod 'YYText'
+
   pod 'Masonry'
   
   pod 'MJExtension'
